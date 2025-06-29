@@ -1,8 +1,3 @@
-#import, download, and store a set of 280k english words from nltk
-import nltk
-
-nltk.download('words')
-
-from nltk.corpus import words
-
-english_words = set(words.words())
+#import, download, and store a set of 20k english words 
+with open('20kCommonWords.txt') as f:
+    english_words = set(word.strip() for word in f)
