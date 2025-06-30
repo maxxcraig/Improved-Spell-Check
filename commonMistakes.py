@@ -1,5 +1,5 @@
 common_misspellings = {
-    # Spelling errors
+    #spelling errors
     "definately": ["definitely"],
     "seperate": ["separate"],
     "recieve": ["receive"],
@@ -31,8 +31,13 @@ common_misspellings = {
     "truely": ["truly"],
     "wich" : ["which"],
 
-    # Missing apostrophes / contractions
+    #missing apostrophes / contractions
     "youre": ["you're"],
+    "truly": ["truly"],
+    "droped": ["dropped"],
+    "notecards": ["note cards"],
+    "reasured": ["reassured"],
+    "erly": ["early"],
     "dont": ["don't"],
     "doesnt": ["doesn't"],
     "cant": ["can't"],
@@ -57,7 +62,7 @@ common_misspellings = {
     "itll": ["it'll"],
     "itd": ["it'd"],
 
-    # Informal shorthand
+    #informal shorthand
     "u": ["you"],
     "r": ["are"],
     "ur": ["your", "you're"],

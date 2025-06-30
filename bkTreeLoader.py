@@ -4,8 +4,10 @@ from bkTree import bkTree
 from Levenshtein import Levenshtein
 from english import english_words
 
+#python library that allows you to save trees
 PICKLE_PATH = "bkTree.pkl"
 
+#if we've made the tree before, load the saved, if not make it from scratch
 def loadOrBuildBKtree():
     if os.path.exists(PICKLE_PATH):
         print("Loading BK-tree from saved file...")
